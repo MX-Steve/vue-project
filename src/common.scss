@@ -1,0 +1,39 @@
+// base color
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+// 登录页样式操作
+//$bg: #2d3a4b; // 登录页背景色
+$bg: #2d3a4b; // 登录页背景色
+$dark_gray: #889aa4; // 登录页小图标色
+$light_gray: #eee; // 登录页标题色
+
+
+// 侧边栏样式操作
+$menuText:#bfcbd9; // 侧边栏字体颜色
+$menuActiveText:#409EFF; // 点击后侧边栏字体颜色
+$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+$menuBg:#304156;  // 侧边栏底层背景色
+$menuHover:#263445; // 鼠标悬停侧边栏单列表背景色
+$subMenuBg:#1f2d3d; // 子列表背景颜色
+$subMenuHover:#001528; // 子列表鼠标悬停色
+$sideBarWidth: 200px; // 侧边栏宽度
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
